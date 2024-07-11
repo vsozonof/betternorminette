@@ -1,4 +1,5 @@
 mkdir $HOME/.BetterNorminette
-mv BetterNorminette $HOME/.BetterNorminette
-mv run.sh $HOME/.BetterNorminette
-alias norminet="~/.BetterNorminette/run.sh"
+cp BetterNorminette $HOME/.BetterNorminette
+cp run.sh $HOME/.BetterNorminette
+chmod +x $HOME/.BetterNorminette/run.sh
+echo "alias norminet=\"~/.BetterNorminette/run.sh\"" >> ~/.zshrc
